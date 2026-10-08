@@ -104,22 +104,17 @@
           </div>
         </a>
 
-        <!-- Desktop Navigation & Request BOQ replaced by Hamburger on all screens except very large -->
+        <!-- Desktop Navigation (PC/Laptop View) -->
         <nav class="hidden lg:flex items-center space-x-7 text-sm font-semibold text-slate-700">
           <a href="#home" class="hover:text-brand-blue transition">Home</a>
-          <a href="#about" class="hover:text-brand-blue transition">About</a>
-          <a href="#specializations" class="hover:text-brand-blue transition text-brand-blue">Our Specializations</a>
-          <a href="#projects" class="hover:text-brand-blue transition">Projects</a>
-          <a href="#blogs" class="hover:text-brand-blue transition flex items-center gap-1.5">
-            <span>Engineering Insights</span>
-            <span class="px-1.5 py-0.5 text-[10px] bg-brand-orange text-white rounded font-bold">SEO</span>
-          </a>
+          <a href="#about" class="hover:text-brand-blue transition">About us</a>
+          <a href="#specializations" class="hover:text-brand-blue transition">Services</a>
+          <a href="#projects" class="hover:text-brand-blue transition">Project</a>
           <a href="#team" class="hover:text-brand-blue transition">Our Team</a>
-          <a href="#testimonials" class="hover:text-brand-blue transition">Reviews</a>
           <a href="#contact" class="hover:text-brand-blue transition">Contact</a>
         </nav>
 
-        <!-- Header CTA and Mobile Menu Button -->
+        <!-- Mobile Menu Button (Hamburger for phones/tablets) -->
         <div class="flex items-center gap-3 lg:hidden">
           <button id="mobileToggle" aria-label="Open Navigation" class="text-slate-700 hover:text-brand-blue p-2 rounded-lg border border-slate-200 focus:outline-none">
             <i class="fa-solid fa-bars text-xl" id="menuIcon"></i>
@@ -128,20 +123,15 @@
       </div>
     </div>
 
-    <!-- Mobile Drawer -->
+    <!-- Mobile Drawer (Phone/Tablet View) -->
     <div id="mobileMenu" class="hidden lg:hidden bg-white border-b border-slate-200 px-6 py-5 shadow-lg">
       <nav class="flex flex-col space-y-3.5 text-sm font-semibold text-slate-700">
         <a href="#home" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">Home</a>
-        <a href="#about" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">About Ratuwa Mai</a>
-        <a href="#specializations" class="mobile-nav-link py-1 hover:text-brand-blue text-brand-blue font-bold block w-full">Our Specializations</a>
-        <a href="#projects" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">Projects Showcase</a>
-        <a href="#blogs" class="mobile-nav-link py-1 hover:text-brand-blue flex items-center justify-between w-full">
-          <span>Engineering Blogs & Cost Guide</span>
-          <span class="text-[10px] bg-brand-orange text-white px-2 py-0.5 rounded font-bold">New</span>
-        </a>
-        <a href="#team" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">Engineering Team</a>
-        <a href="#testimonials" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">Client Reviews</a>
-        <a href="#contact" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">Contact Head Office</a>
+        <a href="#about" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">About us</a>
+        <a href="#specializations" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">Services</a>
+        <a href="#projects" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">Project</a>
+        <a href="#team" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">Our Team</a>
+        <a href="#contact" class="mobile-nav-link py-1 hover:text-brand-blue block w-full">Contact</a>
         <div class="pt-3 border-t border-slate-200 flex flex-col gap-2">
           <a href="tel:+9779852683344" class="w-full text-center bg-brand-blue text-white py-2.5 rounded-lg font-semibold text-xs flex items-center justify-center gap-2">
             <i class="fa-solid fa-phone"></i> Call +977-9852683344
@@ -315,7 +305,7 @@
     </div>
   </section>
 
-  <!-- SPECIALIZATIONS SECTION -->
+  <!-- SPECIALIZATIONS (SERVICES) SECTION -->
   <section id="specializations" class="py-20 bg-slate-50 border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
@@ -581,7 +571,7 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" id="projectsGrid">
         
         <!-- Project 1 -->
-        <div class="project-card residential group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+        <div class="project-card residential group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
           <div class="relative h-48 w-full bg-slate-100 overflow-hidden flex-shrink-0">
             <img src="project1.jpeg" alt="Completion of Land plot for housing" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/0B3C68/ffffff?text=Land+Plot'" />
             <div class="absolute top-3 left-3 bg-brand-blue/90 text-white text-[11px] font-semibold px-2.5 py-1 rounded">Residential Development</div>
@@ -595,7 +585,7 @@
         </div>
 
         <!-- Project 2 -->
-        <div class="project-card commercial group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+        <div class="project-card commercial group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
           <div class="relative h-48 w-full bg-slate-100 overflow-hidden flex-shrink-0">
             <img src="project2.jpeg" alt="Shrestha Complex" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/0B3C68/ffffff?text=Shrestha+Complex'" />
             <div class="absolute top-3 left-3 bg-brand-blue/90 text-white text-[11px] font-semibold px-2.5 py-1 rounded">Commercial</div>
@@ -609,7 +599,7 @@
         </div>
 
         <!-- Project 3 -->
-        <div class="project-card infrastructure group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+        <div class="project-card infrastructure group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
           <div class="relative h-48 w-full bg-slate-100 overflow-hidden flex-shrink-0">
             <img src="project3.jpeg" alt="Road work at morang district" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/0B3C68/ffffff?text=Road+Work'" />
             <div class="absolute top-3 left-3 bg-brand-blue/90 text-white text-[11px] font-semibold px-2.5 py-1 rounded">Infrastructure</div>
@@ -623,7 +613,7 @@
         </div>
 
         <!-- Project 4 -->
-        <div class="project-card residential group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between">
+        <div class="project-card residential group bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
           <div class="relative h-48 w-full bg-slate-100 overflow-hidden flex-shrink-0">
             <img src="project4.jpeg" alt="Mr. Susan Sharma House" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" onerror="this.src='https://placehold.co/600x400/0B3C68/ffffff?text=Susan+Sharma+House'" />
             <div class="absolute top-3 left-3 bg-brand-blue/90 text-white text-[11px] font-semibold px-2.5 py-1 rounded">Residential</div>
@@ -962,7 +952,6 @@
     </div>
   </section>
 
-  <!-- CONTACT / CONSULTATION SECTION (WhatsApp Integration added to JS below) -->
   <section id="contact" class="py-20 bg-slate-50 border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
@@ -1146,12 +1135,11 @@
           <h4 class="text-sm font-bold text-white uppercase tracking-wider">Navigation</h4>
           <ul class="text-xs space-y-2 text-slate-400">
             <li><a href="#home" class="hover:text-white transition">Home</a></li>
-            <li><a href="#about" class="hover:text-white transition">About Our Firm</a></li>
-            <li><a href="#specializations" class="hover:text-white transition">Our 6 Specializations</a></li>
-            <li><a href="#projects" class="hover:text-white transition">Projects Portfolio</a></li>
-            <li><a href="#blogs" class="hover:text-white transition">Engineering Blogs</a></li>
-            <li><a href="#team" class="hover:text-white transition">Engineers & Staff</a></li>
-            <li><a href="#contact" class="hover:text-white transition">Contact Us</a></li>
+            <li><a href="#about" class="hover:text-white transition">About us</a></li>
+            <li><a href="#specializations" class="hover:text-white transition">Services</a></li>
+            <li><a href="#projects" class="hover:text-white transition">Project</a></li>
+            <li><a href="#team" class="hover:text-white transition">Our Team</a></li>
+            <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
           </ul>
         </div>
 
@@ -1193,7 +1181,7 @@
       </div>
 
       <div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
-        <p>© 2074–2026 Ratuwa Mai Nirman Sewa (P.) Ltd. All Rights Reserved.</p>
+        <p>© 2017 Ratuwa Mai Nirman Sewa (P.) Ltd. All Rights Reserved.</p>
         <div class="flex items-center space-x-4">
           <span>PAN: 600837211</span>
           <span>•</span>
